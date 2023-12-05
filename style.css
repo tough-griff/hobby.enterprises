@@ -1,0 +1,11 @@
+.logo {
+  display: block;
+  margin: auto;
+  min-width: 300px;
+  width: 80vw;
+  max-height: 80vh;
+}
+
+.logo-footer {
+  text-align: center;
+}
