@@ -9,3 +9,14 @@
 .logo-footer {
   text-align: center;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .logo {
+    filter: invert();
+  }
+}
