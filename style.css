@@ -1,12 +1,26 @@
+body {
+  margin: 0;
+}
+
+.logo-container {
+  height: 100vh;
+}
+
+.logo-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .logo {
   display: block;
-  margin: auto;
   min-width: 300px;
   width: 80vw;
   max-height: 80vh;
 }
 
-.logo-footer {
+.logo-text {
   text-align: center;
 }
 
