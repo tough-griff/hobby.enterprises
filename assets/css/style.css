@@ -17,6 +17,7 @@ body {
   display: block;
   min-width: 300px;
   width: 80vw;
+  min-height: 225px;
   max-height: 80vh;
 }
 
