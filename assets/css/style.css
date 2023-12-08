@@ -50,3 +50,30 @@ body {
     color: #fff;
   }
 }
+
+main {
+  margin: 8px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.sauce-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  row-gap: 2em;
+}
+
+.sauce-label {
+  max-width: 500px;
+  width: 80%;
+}
+
+footer {
+  margin-top: 3em;
+  text-align: center;
+}
