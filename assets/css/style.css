@@ -2,60 +2,51 @@ body {
   margin: 0;
 }
 
-/*.logo-container {
-  height: 100vh;
-}
-
-.logo-centered {
-  position: absolute;
+.logo-3d {
+  display: block;
+  position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-}
-.logo {
-  display: block;
-  min-width: 300px;
-  width: 80vw;
-  min-height: 225px;
-  max-height: 80vh;
-}
-
-.logo-text {
-  text-align: center;
-}
-*/
-
-.logo-3d{
-  display: block;
-  position:fixed;
-  top:50%;
-  left:50%;
-  width:100vw;
+  width: 100vw;
   height: 100svh;
   transform: translate(-50%, -50%);
 }
-.tag{
-  position:fixed;
+
+.tag {
+  position: fixed;
   white-space: nowrap;
-  z-index:100;
+  z-index: 100;
 }
-.tag a{
-  color: black;
+.tag a {
+  color: #000;
 }
-.tag a:hover{text-decoration: none;}
-.tag.tl{top:10px; left:10px;}
-.tag.tr{top:10px; right:10px;}
-.tag.bl{bottom:10px; left:10px;}
-.tag.br{bottom:10px; right:10px;}
+.tag a:hover {
+  text-decoration: none;
+}
+.tag.tl {
+  top: 10px;
+  left: 10px;
+}
+.tag.tr {
+  top: 10px;
+  right: 10px;
+}
+.tag.bl {
+  bottom: 10px;
+  left: 10px;
+}
+.tag.br {
+  bottom: 10px;
+  right: 10px;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #000;
     color: #fff;
   }
-.tag a{
-    color: white;
-  }
-  .logo {
-    filter: invert();
+
+  .tag a {
+    color: #fff;
   }
 }
