@@ -1,0 +1,213 @@
+body {
+  font-family: monospace;
+  margin: 0px;
+  background-color: darkgreen;
+  color: lime;
+}
+
+#wrap {
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  height: 100svh;
+  align-items: flex-start;
+  margin: 0px auto;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 0px;
+  background-color: darkgreen;
+  background-size: cover;
+  background-position: center center;
+  background-image: url(/assets/images/grass.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+#wrap > div {
+  flex-basis: 100%;
+}
+
+#header {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#header .marquee3k {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  flex-basis: 100%;
+  color: lime;
+  background: darkgreen;
+  line-height: 16px;
+}
+#header .marquee3k em {
+  color: purple;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  background: orange;
+  font-style: normal;
+}
+#header .marquee3k strong {
+  background: lime;
+  color: darkgreen;
+  margin-right: 12px;
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#header #logo {
+  display: flex;
+  align-items: center;
+}
+#header #logo h1 {
+  font-size: 20px;
+  font-family: monospace;
+  text-transform: uppercase;
+  line-height: 1;
+  color: lime;
+  background: darkgreen;
+  padding: 2px;
+}
+#header #logo span {
+  white-space: nowrap;
+}
+#header #logo img {
+  height: 10vw;
+  max-height: 10vh;
+  min-height: 40px;
+  width: auto;
+  padding: 5px;
+}
+@media only screen and (max-width: 600px) {
+  #header #logo,
+#header .marquee3k {
+    display: none;
+  }
+}
+
+.gamewrap {
+  width: 100%;
+  height: auto;
+  margin: 0vh auto 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-image: url(/assets/images/vole-bg2.jpg);
+  overflow: hidden;
+}
+.gamewrap.hidden {
+  visibility: hidden;
+}
+
+.splashwrap {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+  z-index: 1;
+  pointer-events: none;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background-image: url("/assets/images/vole3.png");
+}
+
+.scorewrap {
+  display: flex;
+  align-items: center;
+}
+
+.score {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  color: lime;
+  background: darkgreen;
+}
+
+.message {
+  font-size: 20px;
+  font-family: monospace;
+  text-transform: uppercase;
+  text-align: center;
+  color: lime;
+  padding: 10px;
+}
+
+#startwrap {
+  width: auto;
+  margin: 0px;
+  padding: 20px;
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+#start {
+  padding: 20px 100px;
+  margin: 0px auto;
+  display: block;
+  font-weight: bold;
+  border-color: lime;
+  font-size: 20px;
+  text-transform: uppercase;
+  background: darkgreen;
+  font-family: monospace;
+  color: lime;
+}
+
+.hole {
+  display: inline-block;
+  margin: 5svh 0px 5svh 0px;
+  width: 25%;
+  height: 20svh;
+  position: relative;
+}
+
+.mole {
+  width: 100%;
+  height: 2svh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/assets/images/vole2.png");
+  z-index: 3;
+  position: absolute;
+  background-position: center;
+  bottom: 0px;
+  cursor: crosshair;
+}
+
+.molehill {
+  width: 100%;
+  height: 10svh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/assets/images/hill_1.png");
+  background-position: center bottom;
+  position: absolute;
+  z-index: 5;
+  bottom: 0svh;
+  left: 0px;
+}
+
+.wack {
+  width: 100%;
+  height: 150px;
+  margin-top: 0px;
+  position: absolute;
+  display: none;
+  z-index: 10;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("/assets/images/wack2.png");
+  background-position: center;
+}
