@@ -84,7 +84,7 @@ body {
 }
 @media only screen and (max-width: 600px) {
   #header #logo,
-  #header .marquee3k {
+#header .marquee3k {
     display: none;
   }
 }
@@ -116,7 +116,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translateY(-50%) translateX(-50%);
-  background-image: url('/assets/images/vole3.png');
+  background-image: url("/assets/images/vole3.png");
 }
 
 .scorewrap {
@@ -178,7 +178,7 @@ body {
   height: 2svh;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url('/assets/images/vole2.png');
+  background-image: url("/assets/images/vole2.png");
   z-index: 3;
   position: absolute;
   background-position: center;
@@ -191,7 +191,7 @@ body {
   height: 10svh;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url('/assets/images/hill_1.png');
+  background-image: url("/assets/images/hill_1.png");
   background-position: center bottom;
   position: absolute;
   z-index: 5;
@@ -208,6 +208,6 @@ body {
   z-index: 10;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url('/assets/images/wack2.png');
+  background-image: url("/assets/images/wack2.png");
   background-position: center;
 }
