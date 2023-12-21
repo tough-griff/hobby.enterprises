@@ -1,0 +1,28 @@
+body {
+  margin: 0.5em;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 2em;
+}
+
+.row > img {
+  max-width: 500px;
+  width: 80svw;
+}
+
+.placeholder {
+  height: 500px;
+  width: 500px;
+  background-color: #aaa;
+  background-image: url('/assets/images/fireball.png');
+}
